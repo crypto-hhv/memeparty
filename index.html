@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Meme Party</title>
+		<link rel="stylesheet" href="./assets/css/animations.css" />
+		<link rel="stylesheet" href="./assets/css/custom-animations.css" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<link rel="shortcut icon" href="./assets/images/Logo.png" type="image/x-icon" />
+
+		<style>
+			@font-face {
+				font-family: "Manuale";
+				font-weight: 400;
+				src: url("./assets/fonts/#9Slide04\ Manuale.ttf") format("truetype");
+			}
+			@font-face {
+				font-family: "Manuale";
+				font-weight: 500;
+				src: url("./assets/fonts/#9Slide04\ Manuale\ Medium.ttf") format("truetype");
+			}
+			@font-face {
+				font-family: "Manuale";
+				font-weight: 600;
+				src: url("./assets/fonts/#9Slide04\ Manuale\ SemiBold.ttf") format("truetype");
+			}
+			@font-face {
+				font-family: "Manuale";
+				font-weight: 700;
+				src: url("./assets/fonts/#9Slide04\ Manuale\ Bold.ttf") format("truetype");
+			}
+			@font-face {
+				font-family: "Roman";
+				font-weight: 400;
+				src: url("./assets/fonts/Roman\ SD.ttf") format("truetype");
+			}
+		</style>
+		<script src="./assets/js/jquery-3.7.0.min.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header--inner animatedParent animateOnce">
+					<div class="header--inner-left animated fadeInLeft">
+						<ul class="menu">
+							<li><a href="#home">HOME</a></li>
+							<li><a href="#about-us">ABOUT US</a></li>
+							<li><a href="#feature">FEATURE</a></li>
+						</ul>
+					</div>
+					<div class="header--inner-center animated fadeInUp">
+						<a href="./" class="logo">
+							<img src="./assets/images/Logo.png" alt="Memo Party" />
+						</a>
+					</div>
+					<div class="header--inner-right animated fadeInRight">
+						<ul class="menu">
+							<li><a href="#tokenomics">TOKENOMICS</a></li>
+							<li><a href="#road-map">ROADMAP</a></li>
+							<li>
+								<a href="#twitter" class="icon-only">
+									<img src="./assets/images/twitter.png" alt="Meme Party Twitter" />
+								</a>
+							</li>
+							<li>
+								<a href="#telegram" class="icon-only">
+									<img src="./assets/images/telegram.png" alt="Meme Party Telegram" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section id="home" class="banner animatedParent animateOnce">
+				<img src="./assets/images/Banner.jpg" alt="Banner" class="banner-image animated fadeInDown" />
+				<div class="banner-content">
+					<div class="container">
+						<div class="banner-inner">
+							<p class="banner-subtitle title animated bounceInRight">WELCOME TO</p>
+							<div class="banner-title-container animated shake repeat">
+								<h1 class="banner-title">MEME PARTY</h1>
+								<span class="banner-title-hint">MEME PARTY</span>
+							</div>
+							<p class="banner-description description animated fadeInUp">
+								Once upon a time, in a world where memes were king, there was a secret party that was the talk of the town. Only the most exclusive memes were
+								invited, and the location of the party was kept a closely guarded secret.
+							</p>
+							<button class="banner-btn btn animated swing">JOIN US</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about-us" class="section section-about-us animatedParent animateOnce">
+				<img src="./assets/images/about-us-bg.png" alt="About Us BG" class="section-image" />
+				<div class="about-us">
+					<div class="about-us-left">
+						<h2 class="title animated fadeInLeft">ABOUT US</h2>
+						<div class="description animated fadeInUp">
+							The party was being held at the Meme Mansion, a luxurious estate that was fit for a meme. The Meme Party was more than just a night of fun. It was also
+							a place where memes could come together and share insider information that could make them a lot of money.<br /><br />Finally, the memes decided that it
+							was time to open the party up to new members. They wanted to find people who actually loved the game as well as have faith in meme. They wanted to find
+							people who would bring new ideas and energy to the party, and who would help to make it even more successful.
+						</div>
+					</div>
+					<div class="about-us-right">
+						<img src="./assets/images/about-us-img.png" alt="About Us Image" class="about-us-img animated fadeInRight" />
+					</div>
+				</div>
+			</section>
+			<section id="feature" class="section section-feature animatedParent animateOnce">
+				<img src="./assets/images/feature-bg.png" alt="Feature BG" class="section-image" />
+				<div class="container">
+					<h2 class="title animated fadeInDown">FEATURES</h2>
+					<div class="row">
+						<div class="col-4 animated fadeInUp">
+							<div class="feature-box">
+								<div class="feature-box-image">
+									<img src="./assets/images/feature-1.png" alt="Feature One" class="feature-box-img" />
+								</div>
+								<h4 class="feature-box-title">Burnt Liquidity</h4>
+							</div>
+						</div>
+						<div class="col-4 animated fadeInUp delay-250">
+							<div class="feature-box">
+								<div class="feature-box-image">
+									<img src="./assets/images/feature-2.png" alt="Feature Two" class="feature-box-img" />
+								</div>
+								<h4 class="feature-box-title">1/1 Taxes</h4>
+							</div>
+						</div>
+						<div class="col-4 animated fadeInUp delay-500">
+							<div class="feature-box">
+								<div class="feature-box-image">
+									<img src="./assets/images/feature-3.png" alt="Feature Three" class="feature-box-img" />
+								</div>
+								<h4 class="feature-box-title">Marketing Aligned</h4>
+							</div>
+						</div>
+						<div class="col-4 animated fadeInUp delay-750">
+							<div class="feature-box">
+								<div class="feature-box-image">
+									<img src="./assets/images/feature-4.png" alt="Feature Four" class="feature-box-img" />
+								</div>
+								<h4 class="feature-box-title">Community Based</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="tokenomics" class="section section-tokenomics animatedParent animateOnce">
+				<img src="./assets/images/tokenomics-bg.png" alt="Tokenomics" class="section-image" />
+				<div class="container">
+					<h2 class="title animated swing">TOKENOMICS</h2>
+					<div class="tokenomics-row">
+						<div class="tokenomics-col animated shake">
+							<div class="tokenomics-image">
+								<img src="./assets/images/tokenomics-1.png" alt="Tokenomics" class="tokenomics-img" />
+							</div>
+							<h2 class="tokenomics-title title">696,969,696</h2>
+							<p class="tokenomics-subtitle">TOKEN SUPPLY</p>
+						</div>
+						<div class="tokenomics-col-left"></div>
+						<div class="tokenomics-col animated shake">
+							<div class="tokenomics-image">
+								<img src="./assets/images/tokenomics-2.png" alt="Tokenomics" class="tokenomics-img" />
+							</div>
+							<h2 class="tokenomics-title title">100%</h2>
+							<p class="tokenomics-subtitle">LIQUIDITY</p>
+						</div>
+						<div class="tokenomics-col-right"></div>
+						<div class="tokenomics-col animated shake">
+							<div class="tokenomics-image">
+								<img src="./assets/images/tokenomics-3.png" alt="Tokenomics" class="tokenomics-img" />
+							</div>
+							<h2 class="tokenomics-title title">CONTRACT</h2>
+							<p class="tokenomics-subtitle">REANNOUNCED</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="roadmap" class="section section-roadmap animatedParent animateOnce">
+				<img src="./assets/images/roadmap-bg.png" alt="" class="section-image" />
+				<div class="container">
+					<h2 class="title animated bounceInUp">ROADMAP</h2>
+					<div class="row">
+						<div class="col-4 animated bounceInDown">
+							<div class="feature-box feature-roadmap" data-id="1">
+								<div class="feature-content">
+									Social Media Channels<br />
+									Website Release<br />
+									200+ Holders<br />
+									Dextool Trending No 1
+								</div>
+								<h2 class="feature-box-title">Phase 1</h2>
+							</div>
+						</div>
+						<div class="col-4 animated bounceInDown delay-250" data-id="2">
+							<div class="feature-box feature-roadmap">
+								<div class="feature-content">
+									500+ Holders<br />
+									Meme Competition<br />
+									Strategic partnerships
+								</div>
+								<h2 class="feature-box-title">Phase 2</h2>
+							</div>
+						</div>
+						<div class="col-4 animated bounceInDown delay-500" data-id="3">
+							<div class="feature-box feature-roadmap">
+								<div class="feature-content">
+									1k+ Holders<br />
+									Tier-2 Cex Listing<br />
+									DApp Release
+								</div>
+								<h2 class="feature-box-title">Phase 3</h2>
+							</div>
+						</div>
+						<div class="col-4 animated bounceInDown delay-750" data-id="4">
+							<div class="feature-box feature-roadmap">
+								<div class="feature-content">
+									5k+ Holders<br />
+									Tier-1 Cex Listing<br />
+									NFT Release
+								</div>
+								<h2 class="feature-box-title">Phase 4</h2>
+							</div>
+						</div>
+					</div>
+					<img src="./assets/images/roadmap-img.png" alt="Roadmap" class="roadmap-img animated fadeInLeft delay-1000" />
+				</div>
+			</section>
+		</main>
+
+		<script src="./assets/js/css3-animate-it.js"></script>
+		<script src="./assets/js/scripts.js"></script>
+	</body>
+</html>
