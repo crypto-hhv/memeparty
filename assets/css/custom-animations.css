@@ -328,6 +328,12 @@
 * Shake *
 ********/
 @-webkit-keyframes shake {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 	0%,
 	100% {
 		-webkit-transform: translateX(0);
@@ -347,6 +353,12 @@
 	}
 }
 @keyframes shake {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 	0%,
 	100% {
 		transform: translateX(0);
@@ -364,4 +376,7 @@
 	80% {
 		transform: translateX(1rem);
 	}
+}
+.shake {
+	opacity: 0;
 }
