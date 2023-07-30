@@ -137,20 +137,11 @@ a {
 	--shadow1: 0.2rem -0.2rem 1rem #fff47b, -0.2rem 0.2rem 1rem #e9851a;
 	--shadow2: inset 0 0 6rem #9cce62;
 	--shadow3: 0 5px 20px #9cce62;
-	--bg-grid: conic-gradient(
-			from 90deg at 0.1rem 0.1rem,
-			#0000 90deg,
-			var(--green) 0
-		)
-		0 0/3.4rem 3.4rem;
+	--bg-grid: conic-gradient(from 90deg at 0.1rem 0.1rem, #0000 90deg, var(--green) 0) 0 0/3.4rem 3.4rem;
 	--bg-linear: linear-gradient(135deg, #ceaa62 0%, #d6f675 80%, #ceaa62 100%);
 	--bg-radial1: radial-gradient(circle at 70% 130%, #d6f675 0%, transparent);
 	--bg-radial2: radial-gradient(circle at 50% 100%, #d6f675 0%, transparent);
-	--bg-radial3: radial-gradient(
-		circle at 50% 50%,
-		transparent 30%,
-		var(--green) 250%
-	);
+	--bg-radial3: radial-gradient(circle at 50% 50%, transparent 30%, var(--green) 250%);
 	--text-shadow1: 0.1rem -0.1rem 0.1rem #d6f675;
 	--text-shadow2: -0.1rem 0.1rem 0.1rem #e9851a;
 	--text-shadow3: 0.2rem -0.2rem 0.2rem #d6f675;
@@ -180,7 +171,7 @@ body {
 }
 
 .btn {
-	padding: 2rem 4.5rem;
+	padding: 1.5rem 4.5rem;
 	border: 0.1rem solid transparent;
 	border-radius: 0.4rem;
 	color: var(--color);
@@ -190,7 +181,7 @@ body {
 	transition: 0.3s ease all;
 
 	font-family: "Roman";
-	font-size: 3.8rem;
+	font-size: 3.5rem;
 
 	cursor: pointer;
 }
@@ -208,7 +199,7 @@ body {
 }
 
 .header {
-	position: sticky;
+	position: fixed;
 	z-index: 25;
 	top: 0;
 	left: 0;
@@ -307,18 +298,20 @@ body {
 .banner {
 	position: relative;
 	overflow: hidden;
+	margin-top: -12rem;
 }
 
 .banner-subtitle {
 	line-height: 1;
 	margin-bottom: 2.6rem;
+	font-size: 5rem;
 }
 
 .banner-title-container {
 	position: relative;
 	z-index: 1;
 	font-family: "Roman";
-	font-size: 13.8rem;
+	font-size: 10rem;
 	line-height: 0.8em;
 	letter-spacing: -0.05rem;
 	margin-bottom: 2.2rem;
@@ -355,27 +348,28 @@ body {
 }
 
 .banner-image {
-	width: 100%;
+	width: 83%;
 	height: auto;
+	margin: auto;
+	display: block;
 }
 
 .banner-content {
 	position: absolute;
-	bottom: 0;
+	top: 95rem;
 	left: 0;
 	right: 0;
 	padding-bottom: 10%;
 }
 
 .banner-inner {
-	width: 60%;
 	margin-inline: auto;
 	text-align: center;
 }
 
 .banner-description {
-	margin-bottom: 5rem;
-	max-width: 78rem;
+	margin-bottom: 3rem;
+	max-width: 100rem;
 	margin-inline: auto;
 }
 
@@ -551,20 +545,12 @@ body {
 
 .tokenomics-col-left:before {
 	right: 0;
-	background-image: radial-gradient(
-		circle at 130% 50%,
-		var(--brown) 0%,
-		transparent 50%
-	);
+	background-image: radial-gradient(circle at 130% 50%, var(--brown) 0%, transparent 50%);
 }
 
 .tokenomics-col-right:before {
 	left: 0;
-	background-image: radial-gradient(
-		circle at -30% 50%,
-		var(--brown) 0%,
-		transparent 50%
-	);
+	background-image: radial-gradient(circle at -30% 50%, var(--brown) 0%, transparent 50%);
 }
 
 .section-roadmap {
@@ -610,11 +596,6 @@ body {
 	position: absolute;
 	z-index: -1;
 	inset: 0;
-	background-image: linear-gradient(
-		to right,
-		transparent -10%,
-		var(--green) 50%,
-		transparent 110%
-	);
+	background-image: linear-gradient(to right, transparent -10%, var(--green) 50%, transparent 110%);
 	opacity: 0.6;
 }
